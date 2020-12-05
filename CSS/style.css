@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Header */
+
+.menu_item li:hover {
+    color: lightblue;
+}
+.active {
+    color: lightskyblue;
+}
+.menu_bar {
+    font-size: larger;
+}
+.menu_bar:hover {
+    background-color: lightskyblue;
+}
+.hero {
+    width: 100%;
+    height: 600px;
+}
+/* Service Part */
+.service:hover{
+    background-color: lightblue;
+}
+
+/* Main Part App Presentation */
+.middle {
+    height: 400px;
+}
+.presentation {
+
+}
+.presentation:hover {
+    background-color: lightblue;
+    color: white;
+    margin: 5px;
+}
+.bottom {
+    height: 400px;
+}
+.images {
+    box-sizing: content-box;
+    float: left;
+    display: inline;
+}
+.left_img {
+    width: 150px;
+    float: left;
+    position: relative;
+    top: 125px;
+    left: 10px;
+}
+.right_img {
+    width: 150px;
+    position: relative;
+    top: 125px;
+    left: 55px;
+}
+.mid_img {
+    width: 200px;
+    float: left;
+    position: relative;
+    bottom: 209px;
+    right: 65px;
+}
+/* Main Part App Presentation End */
+
+/* App Add Part Start */
+.add_app {
+    height: 550px;
+}
+.add_part {
+    box-sizing: content-box;
+}
+.add_img_one {
+    width: 400px;
+    position: relative;
+    bottom: 530px;
+    right: 20px;
+}
+.add_img_two {
+    width: 300px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+.app_button {
+    position: relative;
+    bottom: 29px;
+}
+
+/* Footer Part */
+.input_box {
+    border: none;
+}
+.input_box:hover {
+    border: 2px solid lightblue;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For Mobile Phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .active {
+    color: lightskyblue;
+    }
+    .menu_bar {
+    font-size: none;
+    }
+    .hero {
+        width: 100%;
+        height: 900px;
+    }
+    /* Main Part App Presentation */
+    .middle {
+        height: 700px;
+    }
+    .presentation {
+
+    }
+    .presentation:hover {
+        background-color: lightblue;
+        color: white;
+        margin: 5px;
+    }
+    .bottom {
+        height: 520px;
+    }
+    .images {
+        display: none;
+    }
+
+    .map-img {
+        height: 400px;
+        background-size: 100%;
+    }
+
+
+    /* App Add Part Start */
+    .add_app {
+        height: 650px;
+    }
+    .add_part {
+        display: none;
+    }
+    .app_button {
+        position: relative;
+        bottom: 23px;
+    }
+
+    /* Footer Part */
+    .input_box {
+        border: none;
+    }
+    
+}
